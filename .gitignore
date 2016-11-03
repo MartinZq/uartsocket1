@@ -1,0 +1,12 @@
+*.[oa]
+uartsocket
+*.swp
+*.patch
+
+include/*
+!include/*.mk
+!include/mconfig.h
+!include/mtypes.h
+
+bin/
+tests/*test
